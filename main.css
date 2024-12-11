@@ -60,11 +60,9 @@ header {
 }
 input[type="date"] {
   display: block;
-
   -webkit-appearance: none; /* For Safari/Chrome */
   -moz-appearance: none; /* For Firefox */
   appearance: none;
-  min-height: 2em;
 }
 
 a {
@@ -376,7 +374,6 @@ option {
   border-radius: 0;
   transition: border-color 0.25s ease, box-shadow 0.25s ease;
   background-color: white;
-  min-height: 2em;
 }
 input:focus,
 textarea:focus {
