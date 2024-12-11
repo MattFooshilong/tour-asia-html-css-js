@@ -60,9 +60,11 @@ header {
 }
 input[type="date"] {
   display: block;
+
   -webkit-appearance: none; /* For Safari/Chrome */
   -moz-appearance: none; /* For Firefox */
   appearance: none;
+  min-height: 2em;
 }
 
 a {
