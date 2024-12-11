@@ -73,3 +73,13 @@ if (nextBtn) {
     updateCarousel()
   })
 }
+
+const form = document.getElementById("book-now-form")
+
+form.addEventListener("submit", function (event) {
+  // Prevent the default form submission
+  event.preventDefault()
+
+  // Show an alert
+  alert("Form submitted successfully!")
+})

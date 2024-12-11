@@ -60,10 +60,11 @@ header {
 }
 input[type="date"] {
   display: block;
-  appearance: none;
+
   -webkit-appearance: none; /* For Safari/Chrome */
   -moz-appearance: none; /* For Firefox */
-  min-height: 1.2em;
+  appearance: none;
+  min-height: 2em;
 }
 
 a {
@@ -377,9 +378,9 @@ option {
 
   border-radius: 0;
   transition: border-color 0.25s ease, box-shadow 0.25s ease;
-  appearance: none; /* Removes native styling in most browsers */
-  -webkit-appearance: none; /* Specific to WebKit browsers like Safari */
-  -moz-appearance: none; /* Specific to Firefox */
+  -webkit-appearance: none; /* For Safari/Chrome */
+  -moz-appearance: none; /* For Firefox */
+  appearance: none;
 }
 input:focus,
 textarea:focus {
