@@ -378,9 +378,6 @@ option {
 
   border-radius: 0;
   transition: border-color 0.25s ease, box-shadow 0.25s ease;
-  -webkit-appearance: none; /* For Safari/Chrome */
-  -moz-appearance: none; /* For Firefox */
-  appearance: none;
 }
 input:focus,
 textarea:focus {
