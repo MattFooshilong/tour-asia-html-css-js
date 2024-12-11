@@ -371,13 +371,12 @@ select,
 option {
   display: block;
   width: 100%;
-
   padding: 5px 10px;
-
   border: 1px solid gray;
-
   border-radius: 0;
   transition: border-color 0.25s ease, box-shadow 0.25s ease;
+  background-color: white;
+  min-height: 2em;
 }
 input:focus,
 textarea:focus {
