@@ -58,7 +58,15 @@ header {
 .flex-grow-1 {
   flex-grow: 1;
 }
-
+input[type="date"] {
+  display: block;
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  min-height: 1.2em;
+}
+select {
+  -webkit-appearance: none;
+}
 a {
   text-decoration: none;
   color: inherit;
