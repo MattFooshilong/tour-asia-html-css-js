@@ -1,5 +1,6 @@
 //change main content depnding on what sidebar content is clicked
 const sidebar = document.getElementById("sidebar")
+const target = document.getElementById("post")
 if (sidebar) {
   sidebar.addEventListener("click", (event) => {
     const postTitle = document.querySelector(".post-title h5")
@@ -8,7 +9,7 @@ if (sidebar) {
     const postImgDescription = document.querySelector(".post-content p")
 
     if (event.target.closest("article").id === "japan-card") {
-      postTitle.textContent = "Japan, home to the famous Mt Fuji"
+      postTitle.textContent = "The famous Mt Fuji"
       postMetaSubText.textContent = "Fujigoko, Japan"
       postImg.src = "images/sakura.jfif"
       postImg.alt = "japan sakura"
@@ -26,6 +27,7 @@ if (sidebar) {
       postImg.alt = "beijing china"
       postImgDescription.textContent = "History, the Great Wall of China, the forbidden kingdom and the lovely buns, fill your eyes and mouth with unforgettable treats from Beijing China. Book your all-inclusive, all-planned, fuss free trip today."
     }
+    target.scrollIntoView({ behavior: "smooth" })
   })
 }
 
